@@ -64,6 +64,24 @@
 			}
 		}
 
+		&.qq {
+			background: #53c3ee;
+
+			&:hover,
+			&:focus {
+				background: darken(#53c3ee, 15%);
+			}
+		}
+		
+		&.wx {
+			background: #04CC0A;
+
+			&:hover,
+			&:focus {
+				background: darken(#04CC0A, 15%);
+			}
+		}
+		
 		&.fb {
 			background: #5975b1;
 

@@ -3705,6 +3705,7 @@ tbody.collapse.in {
 .jumbotron .btn-app-store .btn.btn-lg, .jumbotron .btn-app-store .btn-group-lg > .btn {
   padding: 10px 23px;
   font-size: 19px;
+  margin-bottom: 10px;
 }
 .jumbotron .btn-app-store .btn img {
   display: block;
@@ -6924,6 +6925,7 @@ tbody.collapse.in {
 .features-section .btn-app-store .btn.btn-lg, .features-section .btn-app-store .btn-group-lg > .btn {
   padding: 10px 23px;
   font-size: 19px;
+  margin-bottom: 10px;
 }
 .features-section .btn-app-store .btn img {
   display: block;
@@ -7072,6 +7074,18 @@ tbody.collapse.in {
 }
 .social-media-links a.tw:hover, .social-media-links a.tw:focus {
   background: #16a7df;
+}
+.social-media-links a.qq {
+  background: #53c3ee;
+}
+.social-media-links a.qq:hover, .social-media-links a.qq:focus {
+  background: #16a7df;
+}
+.social-media-links a.wx {
+  background: #04CC0A;
+}
+.social-media-links a.wx:hover, .social-media-links a.wx:focus {
+  background: #038106;
 }
 .social-media-links a.fb {
   background: #5975b1;
