@@ -355,6 +355,32 @@
     <script src="javascript/vendor/jquery-2.1.0.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
     <script src="javascript/assets/application.js"></script>
-    <script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=bf13c9273ee2"></script>
+    <script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=bf13c9273ee2">
+      mobShare.config( {
+     
+        debug: true, // 开启调试，将在浏览器的控制台输出调试信息
+     
+        appkey: 'bf13c9273ee2', // appkey
+     
+        params: {
+            url: 'http://www.wandoujia.com/apps/io.dcloud.H548E5346', // 分享链接
+            title: '茂号', // 分享标题
+            description: '茂号是一款面向三四线城市，基于本地的线上线下全渠道综合服务平台。旨在为当地民众提供便捷，高效的互联网生活服务。', // 分享内容
+            pic: '', // 分享图片，使用逗号,隔开
+        },
+     
+        /**
+         * 分享时触发的回调函数
+         * 分享是否成功，目前第三方平台并没有相关接口，因此无法知道分享结果
+         * 所以此函数只会提供分享时的相关信息
+         * 
+         * @param {String} plat 平台名称
+         * @param {Object} params 实际分享的参数 { url: 链接, title: 标题, description: 内容, pic: 图片连接 }
+         */
+        callback: function( plat, params ) {
+        }
+     
+      } );
+    </script>
   </body>
 </html>
